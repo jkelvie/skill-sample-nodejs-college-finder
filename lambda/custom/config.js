@@ -17,6 +17,7 @@ module.exports = Object.freeze({
   APPID: process.env.SKILL_ID,
   // DynamoDB Table name
   TABLE_NAME: 'UniversityFinderUsers',
+  
   // College Scorecard API details
   API_URI: `https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key=${process.env
     .API_KEY}`,
