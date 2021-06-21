@@ -17,7 +17,6 @@ module.exports = Object.freeze({
   APPID: process.env.SKILL_ID,
   // DynamoDB Table name
   TABLE_NAME: 'UniversityFinderUsers',
-  
   // College Scorecard API details
   API_URI: `https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key=${process.env
     .API_KEY}`,
@@ -25,4 +24,5 @@ module.exports = Object.freeze({
   BACKGROUND_IMAGE: process.env.MAIN_IMAGE, // https://unsplash.com/photos/cXUOQWdRV4I
   BACKGROUND_IMAGE_2: process.env.LIST_IMAGE, // https://unsplash.com/photos/PdDBTrkGYLo
   MAIN_IMAGE: process.env.GRAD_IMAGE // https://unsplash.com/photos/2RouMSg9Rnw
+  TEST: 'test'
 });
